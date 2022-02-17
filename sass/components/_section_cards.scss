@@ -1,0 +1,97 @@
+.section_cards {
+  padding-bottom: 16px;
+}
+
+.background_cards {
+  padding: 24px 20px;
+  background: #420707;
+  border-radius: 15px;
+  padding-bottom: 24px;
+}
+
+.cards_border {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: white;
+
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: white;
+
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.cards_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding: 24px 29px 17px 29px;
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.cards_title_accent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+  margin-bottom: 17px;
+}
+
+.cards_list {
+  position: relative;
+  margin-bottom: 22px;
+}
+.cards_list_img {
+  padding: 0 10px 0 10px;
+  margin: auto;
+  border-radius: 20px;
+}
+.unites__subtitle {
+  position: absolute;
+  width: 100%;
+  top: 90px;
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: #140202;
+}
+
+.unites__subtitle_accent {
+  position: absolute;
+
+  width: 100%;
+  bottom: 20px;
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: #140202;
+}

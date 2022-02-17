@@ -1,0 +1,93 @@
+.section_components {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 49px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../images/mobile/серый-баннер.jpg);
+}
+.components_banner_flower {
+  position: absolute;
+  top: -40px;
+  right: 260px;
+}
+.components_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #140202;
+  margin: 0;
+  margin-bottom: 31px;
+  padding-top: 6px;
+}
+.components_title_accent {
+  font-weight: 700;
+}
+
+.components_item {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-bottom: 19px;
+}
+
+.components_item_img {
+  position: absolute;
+  left: 160px;
+  top: -50px;
+}
+
+.components_item_img_herbs {
+  position: absolute;
+  left: 135px;
+  top: -60px;
+}
+.components_item_img_tongkat {
+  position: absolute;
+  left: 160px;
+  top: -70px;
+}
+.components_item_img_acai {
+  position: absolute;
+  left: 160px;
+  top: -70px;
+}
+.components_list_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #e02927;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 26px 95px 0 35px;
+}
+.components_list_paragraph {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
+
+  margin: 0;
+  padding: 0 40px 25px 37px;
+}
+.components_list_paragraph_accent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
+
+  margin: 0;
+  padding: 0 20px 56px 37px;
+}

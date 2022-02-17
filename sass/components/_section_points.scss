@@ -1,0 +1,192 @@
+.section_points {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.points_background {
+  padding: 24px 20px;
+  background: #420707;
+  border-radius: 15px;
+
+  padding-bottom: 24px;
+}
+
+.points_border {
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: white;
+
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: white;
+
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+//Текст//
+.points_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 0;
+  padding: 29px 24px 17px 24px;
+  color: #ffffff;
+}
+
+.points_title_accent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.points_list {
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  background-image: url(../../images/mobile/много-кругов.png);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.points_list_reinforces {
+  text-align: center;
+}
+.points_list_reinforces_left {
+  position: relative;
+  bottom: 20px;
+  text-align: left;
+
+  padding-left: 15px;
+}
+
+.points_list_reinforces_right {
+  position: relative;
+  bottom: 90px;
+  left: 185px;
+
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+.points_list_reinforces_left_bottom {
+  position: relative;
+  top: 25px;
+  text-align: left;
+
+  padding-left: 15px;
+}
+.points_list_reinforces_bottom {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.points_list_reinforces_right_bottom {
+  position: relative;
+  bottom: 95px;
+  left: 190px;
+  margin: 0;
+}
+//Картинки//
+.points_img {
+  position: relative;
+}
+.points_img_circles {
+  position: relative;
+  bottom: 250px;
+  margin: auto;
+}
+
+.points_img_lightning {
+  position: absolute;
+  width: 100%;
+  bottom: 85px;
+  right: 5px;
+}
+.points_img_tablets {
+  position: absolute;
+  width: 100%;
+  bottom: 155px;
+}
+.points_img_pill {
+  position: absolute;
+  bottom: 180px;
+  left: 100px;
+}
+//Галочки с фоном//
+.points_img__rec_oran {
+  position: absolute;
+  bottom: 290px;
+  left: 115px;
+}
+.points_img__vec_one {
+  position: absolute;
+  bottom: 305px;
+  left: 130px;
+}
+.points_img__rec_oran_one {
+  position: absolute;
+  bottom: 260px;
+  left: 190px;
+}
+.points_img__vec_two {
+  position: absolute;
+  bottom: 275px;
+  left: 205px;
+}
+.points_img__rec_oran_two {
+  position: absolute;
+  bottom: 260px;
+  left: 40px;
+}
+.points_img__vec_three {
+  position: absolute;
+  bottom: 275px;
+  left: 55px;
+}
+.points_img__rec_oran_three {
+  position: absolute;
+  bottom: 160px;
+  left: 180px;
+}
+.points_img__vec_four {
+  position: absolute;
+  bottom: 175px;
+  left: 195px;
+}
+.points_img__rec_oran_four {
+  position: absolute;
+  bottom: 160px;
+  left: 50px;
+}
+.points_img__vec_five {
+  position: absolute;
+  bottom: 175px;
+  left: 65px;
+}
+.points_img__rec_oran_five {
+  position: absolute;
+  bottom: 130px;
+  left: 120px;
+}
+.points_img__vec_six {
+  position: absolute;
+  bottom: 145px;
+  left: 135px;
+}

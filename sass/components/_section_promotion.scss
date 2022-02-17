@@ -1,0 +1,56 @@
+// .section_promotion.promotion_img_banner {
+
+// }
+.promotion {
+  position: relative;
+  // background: linear-gradient(
+  //   194.29deg,
+  //   #b40000 9.59%,
+  //   rgba(180, 0, 0, 0) 70.88%
+  // );
+  // border-radius: 60px;
+  // transform: rotate(360deg);
+}
+.promotion_img_banner {
+}
+.promotion_img {
+  position: relative;
+}
+.promotion_title {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 230px;
+  left: 10px;
+  padding: 29px 0 19px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: white;
+}
+//Картинки//
+.promotion_img_tab_package {
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+}
+.promotion_img_circle {
+  position: absolute;
+  left: 90px;
+  bottom: 70px;
+}
+
+.promotion_img_big_tab {
+  position: relative;
+  left: 120px;
+  bottom: 20px;
+}
+.promotion_img_tab {
+  position: relative;
+  left: 165px;
+  bottom: 30px;
+}

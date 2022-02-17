@@ -1,0 +1,433 @@
+.section-hero {
+  position: relative;
+  height: 597px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+      167.33deg,
+      #1d0707 10.84%,
+      rgba(0, 0, 0, 0) 29.25%
+    ),
+    url(../../images/mobile/баннер.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        167.33deg,
+        #1d0707 10.84%,
+        rgba(0, 0, 0, 0) 29.25%
+      ),
+      url(../../images/mobile/баннер@2x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 3),
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
+    background-image: linear-gradient(
+        167.33deg,
+        #1d0707 10.84%,
+        rgba(0, 0, 0, 0) 29.25%
+      ),
+      url(../../images/mobile/баннер@3x.jpg);
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 1088px;
+    background-image: linear-gradient(
+        167.33deg,
+        #1d0707 10.84%,
+        rgba(0, 0, 0, 0) 29.25%
+      ),
+      linear-gradient(74.44deg, #1d0707 12.54%, rgba(0, 0, 0, 0) 40.09%),
+      linear-gradient(89.58deg, #1d0707 1.37%, rgba(0, 0, 0, 0) 30.77%),
+      url(../../images/desktop/Баннер.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          167.33deg,
+          #1d0707 10.84%,
+          rgba(0, 0, 0, 0) 29.25%
+        ),
+        linear-gradient(74.44deg, #1d0707 12.54%, rgba(0, 0, 0, 0) 40.09%),
+        linear-gradient(89.58deg, #1d0707 1.37%, rgba(0, 0, 0, 0) 30.77%),
+        url(../../images/desktop/Баннер@2x.jpg);
+    }
+
+    @media screen and (min-device-pixel-ratio: 3),
+      screen and (min-resolution: 288dpi),
+      screen and (min-resolution: 3dppx) {
+      background-image: linear-gradient(
+          167.33deg,
+          #1d0707 10.84%,
+          rgba(0, 0, 0, 0) 29.25%
+        ),
+        linear-gradient(74.44deg, #1d0707 12.54%, rgba(0, 0, 0, 0) 40.09%),
+        linear-gradient(89.58deg, #1d0707 1.37%, rgba(0, 0, 0, 0) 30.77%),
+        url(../../images/desktop/Баннер@3x.jpg);
+    }
+  }
+}
+.flower {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    position: absolute;
+    bottom: 550px;
+    left: -400px;
+    display: block;
+  }
+}
+
+//Текст//
+.section-hero__maim-title {
+  margin: 0;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    margin-bottom: 26px;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 78px;
+
+    color: #ffffff;
+  }
+}
+
+.accent {
+  color: rgb(233, 173, 95);
+}
+
+.text {
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    display: none;
+  }
+}
+
+.text_new {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    margin: 0;
+    padding-left: 100px;
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+}
+//Текст к картинке //
+.list {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-top: 30px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    position: relative;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+.list_item {
+  margin-bottom: 18px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    position: absolute;
+  }
+}
+.list_item_text_one {
+  position: relative;
+  left: 5px;
+  top: 40px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    position: absolute;
+    top: 330px;
+    left: 60px;
+  }
+}
+.list_item_text_two {
+  position: relative;
+  top: 50px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    position: absolute;
+    top: 220px;
+    left: 150px;
+  }
+}
+.list_item_text_three {
+  position: relative;
+  top: 60px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    position: absolute;
+    top: 500px;
+    left: 230px;
+  }
+}
+.list_item_text_four {
+  position: relative;
+  top: 70px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 204px;
+    position: absolute;
+    top: 100px;
+    left: 280px;
+  }
+}
+
+//Картинки//
+.imgs {
+  position: relative;
+}
+.imgss_img_ellipse {
+  position: absolute;
+  bottom: -60px;
+  left: 320px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 480px;
+    height: 480px;
+    top: 130px;
+    left: 380px;
+  }
+}
+.imgss_img_circle {
+  position: absolute;
+  bottom: -40px;
+  left: 140px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 399px;
+    height: 399px;
+    top: 170px;
+    left: 420px;
+  }
+}
+.imgs_img_lightning {
+  position: absolute;
+  bottom: -110px;
+  left: 75px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 924px;
+    height: 924px;
+    top: -50px;
+    left: 140px;
+  }
+}
+.imgs_img_rec {
+  position: absolute;
+  bottom: 40px;
+  left: 230px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 279px;
+    height: 230px;
+    top: 160px;
+    left: 600px;
+  }
+}
+.imgs_img_pill {
+  position: absolute;
+  bottom: -30px;
+  left: 130px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 396px;
+    height: 331px;
+    top: 200px;
+    left: 420px;
+  }
+}
+
+//Фон для галочек//
+
+.imgs_img__rec_oran_one {
+  position: absolute;
+  left: 185px;
+  bottom: 130px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 89px;
+    height: 73px;
+    left: 490px;
+    top: 120px;
+  }
+}
+.imgs_img__rec_oran_two {
+  position: absolute;
+  left: 120px;
+  bottom: 80px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 89px;
+    height: 73px;
+    left: 360px;
+    top: 215px;
+  }
+}
+
+.imgs_img__rec_oran_three {
+  position: absolute;
+  left: 105px;
+  bottom: 15px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 89px;
+    height: 73px;
+    top: 360px;
+    left: 340px;
+  }
+}
+.imgs_img__rec_oran_four {
+  position: absolute;
+  left: 130px;
+  top: 5px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 89px;
+    height: 73px;
+    top: 500px;
+    left: 365px;
+  }
+}
+
+//галочеки//
+
+.imgs_img__vec_one {
+  position: absolute;
+  left: 200px;
+  bottom: 145px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 48px;
+    height: 42px;
+    top: 130px;
+    left: 530px;
+  }
+}
+.imgs_img__vec_two {
+  position: absolute;
+  left: 135px;
+  bottom: 95px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 48px;
+    height: 42px;
+    top: 230px;
+    left: 390px;
+  }
+}
+.imgs_img__vec_three {
+  position: absolute;
+  left: 120px;
+  bottom: 30px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 48px;
+    height: 42px;
+    top: 370px;
+    left: 370px;
+  }
+}
+.imgs_img__vec_four {
+  position: absolute;
+  left: 145px;
+  top: 5px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 48px;
+    height: 42px;
+    top: 510px;
+    left: 395px;
+  }
+}
